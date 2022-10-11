@@ -1,5 +1,5 @@
 # com.A101Selenium
- Ogrenmek adina gelistirdigim Projemdir.
+ Ogrenmek adina gelistirdigim Selenium Projemdir.
 
 ## Program dili
 Java
