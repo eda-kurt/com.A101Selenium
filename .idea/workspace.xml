@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1c48872-e82e-4822-ad22-bbbfcbf457c8" name="Changes" comment="Manage methodlari calisildi">
+    <list default="true" id="d1c48872-e82e-4822-ad22-bbbfcbf457c8" name="Changes" comment="manage methodlari ve navigate calisildi">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practicum/webElement_Amazon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practicum/webElement_Facebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practicum/webElement_bestbuy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +28,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/Otomasyon.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/manageMethodlari.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/webElement_bestbuy.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,7 +51,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.manageMethodlari">
+  <component name="RunManager" selected="Application.webElement_bestbuy">
     <configuration name="Otomasyon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practicum.Otomasyon" />
       <module name="com.A101Selenium" />
@@ -74,8 +78,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="webElement_Amazon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practicum.webElement_Amazon" />
+      <module name="com.A101Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practicum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="webElement_Facebook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practicum.webElement_Facebook" />
+      <module name="com.A101Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practicum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="webElement_bestbuy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practicum.webElement_bestbuy" />
+      <module name="com.A101Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practicum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.webElement_bestbuy" />
+        <item itemvalue="Application.webElement_Facebook" />
+        <item itemvalue="Application.webElement_Amazon" />
         <item itemvalue="Application.manageMethodlari" />
         <item itemvalue="Application.Otomasyon" />
       </list>
@@ -89,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665485088244</updated>
-      <workItem from="1665485090714" duration="2860000" />
+      <workItem from="1665485090714" duration="7364000" />
     </task>
     <task id="LOCAL-00001" summary="Manage methodlari calisildi">
       <created>1665487046648</created>
@@ -98,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665487046648</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="manage methodlari ve navigate calisildi">
+      <created>1665488087358</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665488087359</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +170,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Manage methodlari calisildi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Manage methodlari calisildi" />
+    <MESSAGE value="manage methodlari ve navigate calisildi" />
+    <option name="LAST_COMMIT_MESSAGE" value="manage methodlari ve navigate calisildi" />
   </component>
 </project>
