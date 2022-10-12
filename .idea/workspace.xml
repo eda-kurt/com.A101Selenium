@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1c48872-e82e-4822-ad22-bbbfcbf457c8" name="Changes" comment="if, for alistirmasi yapildi">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Practicum/junit_alistirma.java" afterDir="false" />
+    <list default="true" id="d1c48872-e82e-4822-ad22-bbbfcbf457c8" name="Changes" comment="Junit framework eklendi &#10;Test,Before,After calisildi">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practicum/AssertClassDeneme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practicum/actionClassAlistirma.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/AssertClassDeneme.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/Otomasyon.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/actionClassAlistirma.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/junit_alistirma.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/manageMethodlari.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/webElement_bestbuy.java" root0="SKIP_INSPECTION" />
@@ -51,9 +53,8 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.junit_alistirma">
-    <configuration name="webElement_Amazon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practicum.webElement_Amazon" />
+  <component name="RunManager" selected="JUnit.AssertClassDeneme.Test001">
+    <configuration name="AssertClassDeneme.Test001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.A101Selenium" />
       <extension name="coverage">
         <pattern>
@@ -61,12 +62,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Practicum" />
+      <option name="MAIN_CLASS_NAME" value="Practicum.AssertClassDeneme" />
+      <option name="METHOD_NAME" value="Test001" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="webElement_Facebook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practicum.webElement_Facebook" />
+    <configuration name="actionClassAlistirma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.A101Selenium" />
       <extension name="coverage">
         <pattern>
@@ -74,12 +78,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Practicum" />
+      <option name="MAIN_CLASS_NAME" value="Practicum.actionClassAlistirma" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="webElement_bestbuy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practicum.webElement_bestbuy" />
+    <configuration name="actionClassAlistirma.test001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.A101Selenium" />
       <extension name="coverage">
         <pattern>
@@ -87,6 +93,26 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Practicum" />
+      <option name="MAIN_CLASS_NAME" value="Practicum.actionClassAlistirma" />
+      <option name="METHOD_NAME" value="test001" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionClassAlistirma.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.A101Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practicum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Practicum" />
+      <option name="MAIN_CLASS_NAME" value="Practicum.actionClassAlistirma" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,29 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="junit_alistirma.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.A101Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practicum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Practicum" />
-      <option name="MAIN_CLASS_NAME" value="Practicum.junit_alistirma" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AssertClassDeneme.Test001" />
+        <item itemvalue="JUnit.actionClassAlistirma.test001" />
+        <item itemvalue="JUnit.actionClassAlistirma" />
+        <item itemvalue="JUnit.actionClassAlistirma.test1" />
         <item itemvalue="JUnit.junit_alistirma" />
-        <item itemvalue="JUnit.junit_alistirma.test01" />
-        <item itemvalue="Application.webElement_bestbuy" />
-        <item itemvalue="Application.webElement_Facebook" />
-        <item itemvalue="Application.webElement_Amazon" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665485088244</updated>
-      <workItem from="1665485090714" duration="9538000" />
+      <workItem from="1665485090714" duration="13067000" />
     </task>
     <task id="LOCAL-00001" summary="Manage methodlari calisildi">
       <created>1665487046648</created>
@@ -170,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665520513980</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Junit framework eklendi &#10;Test,Before,After calisildi">
+      <created>1665565654126</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665565654126</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +208,7 @@
     <MESSAGE value="Manage methodlari calisildi" />
     <MESSAGE value="manage methodlari ve navigate calisildi" />
     <MESSAGE value="if, for alistirmasi yapildi" />
-    <option name="LAST_COMMIT_MESSAGE" value="if, for alistirmasi yapildi" />
+    <MESSAGE value="Junit framework eklendi &#10;Test,Before,After calisildi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Junit framework eklendi &#10;Test,Before,After calisildi" />
   </component>
 </project>
