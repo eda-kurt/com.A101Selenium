@@ -10,13 +10,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-import java.security.Key;
 import java.time.Duration;
 
-public class Exercises {
+public class RegisterTestCase {
     WebDriver driver;
     @Test
-    public void test01(){
+    public void test01() throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         driver= new ChromeDriver();
         driver.manage().window().maximize();
@@ -28,6 +27,7 @@ public class Exercises {
         // Verify that home page is visible successfully
          String HomePage=driver.getCurrentUrl();
         Assert.assertEquals(HomePage, "https://automationexercise.com/");
+        System.out.println("home page is visible successfully");
         // Click on 'Signup / Login' button
         WebElement SignUp=driver.findElement(By.xpath("//a[text()=' Signup / Login']"));
         SignUp.click();
@@ -35,6 +35,7 @@ public class Exercises {
         WebElement newUserYazisi=driver.findElement(By.xpath("//div[@class='signup-form']"));
         String NewUserYazisi=newUserYazisi.getText();
         Assert.assertTrue(newUserYazisi.isDisplayed());
+        System.out.println("'New User Signup!' is visible");
         // Enter name and email address
         WebElement name=driver.findElement(By.xpath("//input[@data-qa='signup-name']"));
         Actions actions = new Actions(driver);
@@ -63,14 +64,24 @@ public class Exercises {
                 .sendKeys(Keys.TAB)
                 .sendKeys("5")
                 .sendKeys(Keys.TAB)
-                .sendKeys("June")
+                .sendKeys("March")
                 .sendKeys(Keys.TAB)
                 .sendKeys("1995")
-                .sendKeys(Keys.TAB)
-                .click()
-                .sendKeys(Keys.TAB)
-                .click()
-                .sendKeys(Keys.TAB)
+                .perform();
+        WebElement checkbox1;
+        checkbox1= driver.findElement(By.xpath("//input[@name='newsletter']"));
+        Thread.sleep(5000);
+        checkbox1.click();
+
+        WebElement checkbox2;
+        checkbox2= driver.findElement(By.xpath("//input[@value='1']"));
+        Thread.sleep(5000);
+        checkbox2.click();
+
+
+        Actions actions2 = new Actions(driver);
+        WebElement firstName= driver.findElement(By.xpath("//input[@name='first_name']"));
+        actions2.click(firstName)
                 .sendKeys("Eda")
                 .sendKeys(Keys.TAB)
                 .sendKeys("Kurt")

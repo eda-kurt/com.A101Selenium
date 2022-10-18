@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1c48872-e82e-4822-ad22-bbbfcbf457c8" name="Changes" comment="ActionClass ve Assert denemesi yapildi">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Practicum/Exercises.java" afterDir="false" />
+    <list default="true" id="d1c48872-e82e-4822-ad22-bbbfcbf457c8" name="Changes" comment="http://automationexercise.com-Test Case 1: Register User">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practicum/TestCase2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Practicum/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Practicum/RegisterTestCase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +27,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/AssertClassDeneme.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/Exercises.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/Otomasyon.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/RegisterTestCase.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/TestCase2.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/actionClassAlistirma.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/junit_alistirma.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Practicum/manageMethodlari.java" root0="SKIP_INSPECTION" />
@@ -46,14 +49,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.Exercises">
+}</component>
+  <component name="RunManager" selected="JUnit.TestCase2.Testcase2">
     <configuration name="AssertClassDeneme.Test001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.A101Selenium" />
       <extension name="coverage">
@@ -70,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercises" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.A101Selenium" />
       <extension name="coverage">
         <pattern>
@@ -79,13 +82,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Practicum" />
-      <option name="MAIN_CLASS_NAME" value="Practicum.Exercises" />
+      <option name="MAIN_CLASS_NAME" value="Practicum.RegisterTestCase" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercises.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterTestCase.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.A101Selenium" />
       <extension name="coverage">
         <pattern>
@@ -94,14 +97,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Practicum" />
-      <option name="MAIN_CLASS_NAME" value="Practicum.Exercises" />
+      <option name="MAIN_CLASS_NAME" value="Practicum.RegisterTestCase" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="actionClassAlistirma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2.Testcase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.A101Selenium" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +113,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Practicum" />
-      <option name="MAIN_CLASS_NAME" value="Practicum.actionClassAlistirma" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Practicum.TestCase2" />
+      <option name="METHOD_NAME" value="Testcase2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Exercises" />
-        <item itemvalue="JUnit.Exercises.test01" />
+        <item itemvalue="JUnit.TestCase2.Testcase2" />
+        <item itemvalue="JUnit.RegisterTestCase.test01" />
+        <item itemvalue="JUnit.RegisterTestCase" />
         <item itemvalue="JUnit.AssertClassDeneme.Test001" />
         <item itemvalue="JUnit.actionClassAlistirma.test001" />
-        <item itemvalue="JUnit.actionClassAlistirma" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +154,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665485088244</updated>
-      <workItem from="1665485090714" duration="19226000" />
+      <workItem from="1665485090714" duration="19979000" />
+      <workItem from="1665692482713" duration="248000" />
+      <workItem from="1665743638441" duration="8000" />
+      <workItem from="1666119105440" duration="5363000" />
     </task>
     <task id="LOCAL-00001" summary="Manage methodlari calisildi">
       <created>1665487046648</created>
@@ -194,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665609069093</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="http://automationexercise.com-Test Case 1: Register User">
+      <created>1665690193960</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665690193960</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +231,14 @@
     <MESSAGE value="if, for alistirmasi yapildi" />
     <MESSAGE value="Junit framework eklendi &#10;Test,Before,After calisildi" />
     <MESSAGE value="ActionClass ve Assert denemesi yapildi" />
-    <option name="LAST_COMMIT_MESSAGE" value="ActionClass ve Assert denemesi yapildi" />
+    <MESSAGE value="http://automationexercise.com-Test Case 1: Register User" />
+    <option name="LAST_COMMIT_MESSAGE" value="http://automationexercise.com-Test Case 1: Register User" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Practicum.RegisterTestCase" memberName="driver" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
